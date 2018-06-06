@@ -1,8 +1,13 @@
-# portfolio
+# Portfolio
+
 ## By **Wesley Mutwiri**
+
 ## Live Demo
 coming soon
+
 ## Description
+This is a web application that showcases me as an individual and acts as my portfolio to potential employers and people who would want to know about me as an individual as a whole person. It also includes personal projects that I have been working on as a whole and the skills that I posses put into one website.
+
 
 ## Setup and Installation Requirements
 1. Open your default web browser
