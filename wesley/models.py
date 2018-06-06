@@ -27,12 +27,3 @@ class Images(models.Model):
     def get_all_images(cls):
         images = cls.objects.order_by('-pub_date')
         return images
-
-    @classmethod
-    def get_image_by_Id(cls, image_id):
-      return cls.objects.get(pk=image_id)
-
-    @classmethod
-    def search_by_title(cls, search_term):
-        img = cls.objects.filter(category__category__icontains=search_term)
-        return img

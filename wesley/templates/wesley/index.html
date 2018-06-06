@@ -1,12 +1,27 @@
 {%extends 'wesley/base.html'%}
+{%load static %}
 {%block content%}
+<div class="col-md-4 col-lg-4">
+    <p> 
+        
+        Hello world
+    </p>
 <div class="container">
-    <div class="row">
-        <div class="col-md-4 col-lg-4">
-<p> 
+<div class="row">
+    {%for image in image %}
+<center>
+    <div class="col-xs-3 col-md-6 col-sm-6 col-lg-6" style="padding-left: 100px">
+        <p>
+            <img src="{{image.image.url}}" class="img-fluid">
+        </p>
+</center>
+{% empty %}
 
-    Hello world
-</p>
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    <h1>Sorry, There are no photos to display... Try again later</h1>
+
+</div>
+    {%endfor%}
         </div>
 
     </div>
