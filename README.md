@@ -11,7 +11,7 @@ coming soon
 4. No other downloads or plug-ins are required to view this python application
 5. Click on the live site on the github repository
 6. Alternatively, use the livelink found down below
-7. Other alternative:
+7. Other alternative:E
 
 
 ## Known bugs
