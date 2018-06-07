@@ -127,7 +127,7 @@ header .vert-text .scroll-down::before {
 
 
 
-#contacts {
+#projects {
 	margin: 0 auto;
   padding: 100px 0;
 	background: #224;
@@ -135,11 +135,11 @@ header .vert-text .scroll-down::before {
   color: #fff;
 	transition: all 1.7s ease;
 }
-#contacts:hover{
+#projects:hover{
 	background: #fa3380;
 	color: #fff;
 }
-#contacts .social {
+#projects .social {
   padding-bottom: 20px;
   border-bottom: solid 2px rgba(255, 255, 255, 0.125);
 }
