@@ -1,30 +1,49 @@
 {%extends 'wesley/base.html'%}
 {%load static %}
 {%block content%}
-<div class="col-md-4 col-lg-4">
-    <p> 
-        
-        Hello world
-    </p>
-<div class="container">
-<div class="row">
-    {%for image in image %}
-<center>
-    <div class="col-xs-3 col-md-6 col-sm-6 col-lg-6" style="padding-left: 100px">
-        <p>
-            <img src="{{image.image.url}}" class="img-fluid">
-        </p>
-</center>
-{% empty %}
-
-<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-    <h1>Sorry, There are no photos to display... Try again later</h1>
-
-</div>
-    {%endfor%}
+<header id="header">
+    <div class="vert-text">
+        <div id="particles"></div>
+        <div class="p-img">
+            <img src="https://res.cloudinary.com/pashagord/image/upload/v1468545314/Portfolio/logos/codepen_logo.png" />
         </div>
+        <h1 id="typer-size">
+            <!-- TEXTS -->
+            <span id="typed"></span>
+            <div id="typed-strings">
+                <p>Codepen</span>
+                </p>
+                <p>I'm Zayn</p>
+                <p>
+                    <span class="#">Let's Code</span>
+                </p>
+                <p>I like web development</p>
+                <p>I love coding</p>
+                <p>PHP</p>
+                <p>PYTHON</p>
+                <p>JAVASCRIPT</p>
+                <p>CSS</p>
+                <p>Simple Landing Page</p>
+                <p>Ruby</p>
+                <p>Most Powerful Typer</p>
+                <p>Codepen</p>
+                <p>Apple</p>
+                <p>Facebook</p>
+                <p>You can still add more</p>
+            </div>
+            <!-- TEXTS ENDS -->
+        </h1>
+        <!-- TITLE -->
 
+        <h3>CODEPEN | ZAYN AUDI</h3>
+        <a href="#contacts" class="scroll-down nav-link"></a>
     </div>
-
-</div>
+</header>
+<!-- FOOTER  -->
+<footer id="contacts">
+    <div class="container">
+        <div class="row">
+        </div>
+    </div>
+</footer>
 {%endblock%}
