@@ -12,6 +12,9 @@ p {
   color: #565656;
   line-height: 1.8;
 }
+a {
+    color: #565656;
+}
 .section {
   min-height: 800px;
 }
